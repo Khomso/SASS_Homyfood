@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/9861ff6000.js"
       crossorigin="anonymous"
@@ -17,20 +20,23 @@
   <body>
       <header>
         <div>
-          <div>
+          <div class="center_logo">
             <img src="/images/logo/ohmyfood@2x.svg" alt="logo">
           </div>
           <!--localisation Paris-->
-          <div>
+          <div class="border_local">
             <i class="fa-solid fa-location-dot"></i>
-            <input type="search" name="ville" id="ville" placeholder="Paris,Belleville">
+            <input class="border_city" type="search" name="ville" id="ville" placeholder="Paris,Belleville">
           </div>
           <!--explorateur de restaurant-->
-          <h2>Réservez le menu qui <br> vous convient</h2>
-          <p>Découvrez des restaurants d'exception,<br>sélectionnés par nos soins</p>
-          <button type="submit">
+          <div class="back_gray">
+            <h2 class="flex_centre">Réservez le menu qui <br> vous convient</h2>
+            <p>Découvrez des restaurants d'exception,<br>sélectionnés par nos soins</p>
+            <button type="submit">
             Explorer nos restaurants
-          </button>
+            </button>
+          </div>
+          
         </div>
       </header>
       <main>
