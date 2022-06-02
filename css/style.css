@@ -15,6 +15,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*logo*/
 .center_logo {
   display: -webkit-box;
@@ -151,7 +156,34 @@ button.btn {
 }
 
 .img_border {
-  height: 35%;
+  height: 25%;
   border-radius: 25px 25px 0 0;
+}
+
+/*footer*/
+.back_black {
+  background-color: black;
+  margin: 0;
+}
+
+.foot_title {
+  font-family: 'Shrikhand', sans-serif;
+}
+
+.logo_white {
+  color: white;
+}
+
+.foot_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+footer {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,9 @@ body {
   margin:0;
   font-family: 'Roboto', sans-serif;
 }
+img{
+  object-fit: cover;
+}
 
 /*logo*/
 .center_logo{
@@ -104,9 +107,25 @@ button.btn{
   margin-bottom: 15px;
 }
 .img_border{
-  height: 35%;
+  height: 25%;
   border-radius: 25px 25px 0 0;
 }
+/*footer*/
 
-  
-
+.back_black{
+  background-color: black;
+  margin: 0;
+}
+.foot_title{
+  font-family: 'Shrikhand', sans-serif;
+}
+.logo_white{
+  color: white;
+}
+.foot_flex{
+  display: flex;
+  align-items: baseline;
+} 
+footer{
+  color:white;
+}
