@@ -41,6 +41,10 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .border_city {
@@ -64,6 +68,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 h2 {
@@ -78,6 +83,7 @@ p.heading_flexcenter {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 button.btn {
@@ -86,7 +92,7 @@ button.btn {
   display: flex;
   margin: auto;
   padding: 13px;
-  border-radius: 15px;
+  border-radius: 25px;
   border: none;
   color: white;
   background-color: #9556DC;
@@ -104,6 +110,8 @@ button.btn {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(233, 233, 233, 0.285);
+  position: relative;
+  margin: 25px;
 }
 
 .circle {
@@ -121,6 +129,8 @@ button.btn {
   color: white;
   background-color: #9556DC;
   border-radius: 15px;
+  position: absolute;
+  left: -10px;
 }
 
 .icon_padding {
@@ -131,6 +141,16 @@ button.btn {
 
 .icon_padding .--color {
   color: #9556DC;
+}
+
+.filter_margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 /*restaurant*/
