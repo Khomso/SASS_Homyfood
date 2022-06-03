@@ -134,16 +134,20 @@ h3{
   border-radius: 25px 25px 0 0;
 }
 .icon_width{
-  width: 50px;
   font-size: 22px;
 }
 .icon_resto--center{
   display: flex;
-  flex-direction: column-reverse;
+  align-items: center;
+  flex:1;
 }
+
 .city_marging{
   margin-top: 0;
   margin-left: 10px;
+}
+.flex_5{
+  flex:5;
 }
 /*footer*/
 footer{
