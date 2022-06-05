@@ -179,6 +179,17 @@ footer{
 }
 .title_resto{
   display: block;
+  font-family: 'Shrikhand', sans-serif;
+
+}
+.main_card{
+  display:flex;
+  width: 92%;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
 }
 .main_flex{
   display: flex;
@@ -191,5 +202,15 @@ footer{
 .main_bold{
   font-weight: bold;
 }
+.main_card--margin{
+  margin: 5px 10px;
+}
+.text_size{
+  font-size:13px;
+}
+.margin_right{
+  margin-right: 20px;
+}
+
 
 
