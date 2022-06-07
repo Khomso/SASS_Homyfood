@@ -11,7 +11,10 @@ body {
 img{
   object-fit: cover;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 /*logo*/
 .flex{
   display: flex;
@@ -89,6 +92,9 @@ button.btn{
   background-color: rgba(233, 233, 233, 0.285);
   position: relative;
   margin: 25px;
+  &_color--primary{
+    background-color:  lighten($color: #9556DC, $amount: 35%);
+  }
 
 }
 .circle{
@@ -115,6 +121,9 @@ button.btn{
   display: flex;
   margin: auto;
   align-items: baseline;
+}
+.primary{
+  color: $primary;
 }
 /*restaurant*/
 .resto_background{

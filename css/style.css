@@ -20,6 +20,11 @@ img {
      object-fit: cover;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /*logo*/
 .flex {
   display: -webkit-box;
@@ -136,6 +141,10 @@ button.btn {
   margin: 25px;
 }
 
+.filter_color--primary {
+  background-color: #f2eafb;
+}
+
 .circle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +182,10 @@ button.btn {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.primary {
+  color: #9556DC;
 }
 
 /*restaurant*/
