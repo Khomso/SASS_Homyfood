@@ -21,6 +21,23 @@ img {
 }
 
 /*logo*/
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.center_arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .center_logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,6 +46,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
+}
+
+.img_width {
+  width: 75%;
 }
 
 /*localisation paris*/
@@ -95,7 +116,8 @@ button.btn {
   border-radius: 25px;
   border: none;
   color: white;
-  background-color: #9556DC;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79DA), to(#9556DC));
+  background-image: linear-gradient(to right bottom, #ff79DA, #9556DC);
 }
 
 /*filtre*/
@@ -155,7 +177,7 @@ button.btn {
 
 /*restaurant*/
 .resto_background {
-  padding-bottom: 60px;
+  padding-bottom: 35px;
   background-color: #f3f2f2;
   width: 100%;
 }
@@ -191,6 +213,10 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.img_size {
+  height: 150px;
 }
 
 .img_border {
@@ -256,6 +282,10 @@ footer {
 }
 
 /*page restaurant 1*/
+.resto_padding {
+  padding: 15px;
+}
+
 .img_head {
   width: 320px;
 }
@@ -310,5 +340,12 @@ footer {
 
 .margin_right {
   margin-right: 20px;
+}
+
+.btn_resto--size {
+  width: 48%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
