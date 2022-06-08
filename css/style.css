@@ -123,6 +123,7 @@ button.btn {
   color: white;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79DA), to(#9556DC));
   background-image: linear-gradient(to right bottom, #ff79DA, #9556DC);
+  cursor: pointer;
 }
 
 /*filtre*/
@@ -212,6 +213,7 @@ button.btn {
   border-radius: 25px;
   margin: auto;
   margin-bottom: 15px;
+  position: relative;
 }
 
 h3 {
@@ -229,15 +231,40 @@ h3 {
 }
 
 .img_size {
-  height: 150px;
+  height: 160px;
 }
 
 .img_border {
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.back_green {
+  background-color: #99E2D0;
+  width: 25%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  font-size: small;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #2c9c81;
+  font-weight: bold;
 }
 
 .icon_width {
   font-size: 22px;
+}
+
+.fa-solid a {
+  color: black transparent;
 }
 
 .icon_resto--center {
@@ -294,7 +321,14 @@ footer {
   margin-left: 10px;
 }
 
-/*page restaurant 1*/
+.hands_size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+/*page restaurant */
 .resto_padding {
   padding: 15px;
 }
@@ -360,5 +394,11 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
+}
+
+.border_green {
+  border-bottom: 3px solid #99E2D0;
+  width: 12%;
 }
 /*# sourceMappingURL=style.css.map */

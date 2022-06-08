@@ -81,6 +81,7 @@ button.btn{
   border: none;
   color: white;
   background-image:linear-gradient(to right bottom,#ff79DA,#9556DC);
+  cursor: pointer;
 }
 /*filtre*/
 .filter{
@@ -142,6 +143,7 @@ button.btn{
   border-radius: 25px;
   margin: auto;
   margin-bottom: 15px;
+  position: relative;
 }
 h3{
   margin-bottom: 5px;
@@ -152,13 +154,31 @@ h3{
   justify-content: space-between;
 }
 .img_size{
-  height: 150px;
+  height: 160px;
 }
 .img_border{
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
+}
+.back_green{
+  background-color: #99E2D0;
+  width: 25%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.green{
+  display: flex;
+  margin: 5px;
+  font-size: small;
+  justify-content: center;
+  color: darken($color: #99E2D0, $amount: 35%) ;
+  font-weight: bold;
 }
 .icon_width{
   font-size: 22px;
+}
+.fa-solid a {
+  color: black transparent;
 }
 .icon_resto--center{
   display: flex;
@@ -195,9 +215,12 @@ footer{
 .foot_margin{
   margin-left: 10px;
 }
+.hands_size{
+  display: flex;
+  font-size: 12px;
+}
 
-
-/*page restaurant 1*/
+/*page restaurant */
 .resto_padding{
   padding: 15px;
 }
@@ -241,6 +264,10 @@ footer{
 .btn_resto--size{
   width: 48%;
   justify-content: center;
+  cursor: pointer;
 }
-
+.border_green{
+  border-bottom:3px solid #99E2D0;
+  width: 12%;
+}
 
