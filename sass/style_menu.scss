@@ -1,0 +1,55 @@
+@import "./common";
+
+/*page restaurant */
+
+.resto_padding {
+  padding: 15px;
+}
+.img_head {
+  width: 320px;
+}
+.title_resto {
+  display: block;
+  font-family: "Shrikhand", sans-serif;
+}
+.main_top{
+  position: absolute;
+}
+.main_card {
+  display: flex;
+  width: 92%;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.main_flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.main_margin {
+  margin-left: 15px;
+}
+.main_bold {
+  font-weight: bold;
+}
+.main_card--margin {
+  margin: 5px 10px;
+}
+.text_size {
+  font-size: 13px;
+}
+.margin_right {
+  margin-right: 20px;
+}
+.btn_resto--size {
+  width: 48%;
+  justify-content: center;
+  cursor: pointer;
+}
+.border_green {
+  border-bottom: 3px solid $tertiary;
+  width: 12%;
+}

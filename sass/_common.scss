@@ -1,0 +1,95 @@
+@import "./variables";
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/*logo*/
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.center_arrow {
+  display: flex;
+  align-items: center;
+}
+.center_logo {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.img_width {
+  width: 75%;
+}
+/*carte grise*/
+
+.back_gray {
+  background-color: rgb(243, 242, 242);
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+h1 {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h2 {
+  margin-left: 15px;
+}
+p.heading_flexcenter {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+}
+
+button.btn {
+  display: flex;
+  margin: auto;
+  padding: 13px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right bottom, $secondary, $primary);
+  cursor: pointer;
+}
+
+/*footer*/
+footer {
+  color: white;
+  background-color: black;
+}
+.back_black {
+  background-color: black;
+  margin: 0;
+}
+.foot_title {
+  padding-top: 15px;
+  font-family: "Shrikhand", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.foot_flex {
+  display: flex;
+  align-items: baseline;
+}
+.foot_margin {
+  margin-left: 10px;
+}
+.hands_size {
+  display: flex;
+  font-size: 12px;
+}
+
+
