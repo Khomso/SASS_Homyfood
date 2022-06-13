@@ -64,6 +64,12 @@ button.btn {
   background-image: linear-gradient(to right bottom, $secondary, $primary);
   cursor: pointer;
 }
+.icon_width {
+  font-size: 22px;
+  &:hover{
+    background-image: linear-gradient(to top, $secondary, $primary)
+  }
+}
 
 /*footer*/
 footer {

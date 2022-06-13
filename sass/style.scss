@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./common";
+@import"./animation";
 title {
   font-family: "Shrikhand", cursive;
 }
@@ -37,7 +38,7 @@ a {
 
 /*localisation paris*/
 .border_local {
-  background-color: rgb(236, 234, 234);
+  background-color: lighten($color: $gray, $amount: 40%);
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -46,13 +47,13 @@ a {
 }
 .border_city {
   border: none;
-  background-color: rgb(236, 234, 234);
+  background-color: lighten($color: $gray, $amount: 40%);
   padding-left: 15px;
 }
 /*carte grise*/
 
 .back_gray {
-  background-color: rgb(243, 242, 242);
+  background-color: lighten($color: $gray, $amount: 45%);
   padding-top: 10px;
   padding-bottom: 40px;
 }
@@ -89,7 +90,7 @@ button.btn {
   border: 0.8px solid rgb(230, 229, 229);
   border-radius: 25px;
   align-items: center;
-  background-color: rgba(233, 233, 233, 0.285);
+  background-color: lighten($color: $gray, $amount: 45%);
   position: relative;
   margin: 25px;
   &_color--primary {
@@ -127,7 +128,7 @@ button.btn {
 /*restaurant*/
 .resto_background {
   padding-bottom: 35px;
-  background-color: #f3f2f2;
+  background-color: lighten($color: $gray, $amount: 45%);
   width: 100%;
 }
 .title_margin {
@@ -172,18 +173,12 @@ h3 {
   color: darken($color: $tertiary, $amount: 35%);
   font-weight: bold;
 }
-.icon_width {
-  font-size: 22px;
-}
-.fa-solid a {
-  color: black transparent;
-}
+
 .icon_resto--center {
   display: flex;
   align-items: center;
   flex: 1;
 }
-
 .city_marging {
   margin-top: 0;
   margin-left: 10px;
@@ -194,10 +189,10 @@ h3 {
 /*footer*/
 footer {
   color: white;
-  background-color: black;
+  background-color: $black;
 }
 .back_black {
-  background-color: black;
+  background-color: $black;
   margin: 0;
 }
 .foot_title {

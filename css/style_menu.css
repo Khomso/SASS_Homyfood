@@ -100,6 +100,15 @@ button.btn {
   cursor: pointer;
 }
 
+.icon_width {
+  font-size: 22px;
+}
+
+.icon_width:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ff79da), to(#9556dc));
+  background-image: linear-gradient(to top, #ff79da, #9556dc);
+}
+
 /*footer*/
 footer {
   color: white;
@@ -139,6 +148,10 @@ footer {
 }
 
 /*page restaurant */
+.back_gray--resto {
+  background-color: #f3f3f3;
+}
+
 .resto_padding {
   padding: 15px;
 }
@@ -152,8 +165,10 @@ footer {
   font-family: "Shrikhand", sans-serif;
 }
 
-.main_top {
-  position: absolute;
+.positioned {
+  position: relative;
+  top: -30px;
+  border-radius: 15px 15px 0 0;
 }
 
 .main_card {
@@ -204,6 +219,8 @@ footer {
 }
 
 .btn_resto--size {
+  position: relative;
+  top: 20px;
   width: 48%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

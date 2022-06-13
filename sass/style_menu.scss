@@ -1,7 +1,10 @@
 @import "./common";
+@import"./animation";
 
 /*page restaurant */
-
+.back_gray--resto{
+  background-color: lighten($color: $gray, $amount: 45%);
+}
 .resto_padding {
   padding: 15px;
 }
@@ -12,8 +15,10 @@
   display: block;
   font-family: "Shrikhand", sans-serif;
 }
-.main_top{
-  position: absolute;
+.positioned{
+  position:relative;
+  top:-30px;
+  border-radius: 15px 15px 0 0;
 }
 .main_card {
   display: flex;
@@ -45,6 +50,8 @@
   margin-right: 20px;
 }
 .btn_resto--size {
+  position: relative;
+  top:20px;
   width: 48%;
   justify-content: center;
   cursor: pointer;
