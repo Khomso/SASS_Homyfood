@@ -1,5 +1,5 @@
 @import "./variables";
-
+@import"./components";
 body {
   display: flex;
   flex-direction: column;
@@ -56,17 +56,6 @@ p.heading_flexcenter {
   font-size: 14px;
   justify-content: center;
   text-align: center;
-}
-
-button.btn {
-  display: flex;
-  margin: auto;
-  padding: 13px;
-  border-radius: 25px;
-  border: none;
-  color: white;
-  background-image: linear-gradient(to right bottom, $secondary, $primary);
-  cursor: pointer;
 }
 .icon_width {
   font-size: 22px;

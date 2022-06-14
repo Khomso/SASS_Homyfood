@@ -1,3 +1,21 @@
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 13px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  min-width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), to(#9556dc));
+  background-image: linear-gradient(to right bottom, #ff79da, #9556dc);
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,20 +106,6 @@ p.heading_flexcenter {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-}
-
-button.btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-  padding: 13px;
-  border-radius: 25px;
-  border: none;
-  color: white;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), to(#9556dc));
-  background-image: linear-gradient(to right bottom, #ff79da, #9556dc);
-  cursor: pointer;
 }
 
 .icon_width {

@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    margin: auto;
+    padding: 13px;
+    border-radius: 25px;
+    border: none;
+    color: white; 
+    cursor: pointer;
+    min-width: 150px;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, $secondary, $primary);
+  }
+ 
