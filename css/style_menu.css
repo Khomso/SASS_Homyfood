@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+title {
+  font-family: "Shrikhand", cursive;
+}
+
 img {
   -o-object-fit: cover;
      object-fit: cover;
