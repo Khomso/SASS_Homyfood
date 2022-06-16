@@ -2,3 +2,24 @@
     opacity: 0.8;
     box-shadow: 5px 5px 10px $primary;
 }
+.main_card--starters{
+    animation: apparition 3s ease-out; 
+  }
+.main_card--maincourse{
+    animation: apparition 3s ease-out;
+    animation-delay: 3s;
+  }
+.main_card--dessert{
+    animation: apparition 3s ease-out;
+    animation-delay: 6s;
+}
+  @keyframes apparition {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }
