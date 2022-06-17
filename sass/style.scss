@@ -1,7 +1,9 @@
 @import "./variables";
 @import "./common";
 @import"./animation";
-
+body{
+  position: relative;
+}
 /*localisation paris*/
 .border_local {
   background-color: lighten($color: $gray, $amount: 40%);
