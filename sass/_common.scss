@@ -57,11 +57,11 @@ p.heading_flexcenter {
   justify-content: center;
   text-align: center;
 }
+.icon_color{
+  position: relative;
+}
 .icon_width {
   font-size: 22px;
-  &:hover{
-    background-image: linear-gradient(to top, $secondary, $primary)
-  }
 }
 
 /*footer*/

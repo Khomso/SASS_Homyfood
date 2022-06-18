@@ -90,5 +90,17 @@
             transform: rotate(360deg);
   }
 }
-
-
+// icone coeur survol*/
+.transparent{
+  display: none;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+.fa-solid:hover{
+  opacity: 1;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, $secondary, $primary)
+  }
