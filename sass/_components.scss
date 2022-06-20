@@ -1,3 +1,6 @@
+@mixin gradient {
+  background-image: linear-gradient(to right bottom, $secondary, $primary);
+}
 .btn {
     display: flex;
     margin: auto;
@@ -8,6 +11,7 @@
     cursor: pointer;
     min-width: 150px;
     justify-content: center;
-    background-image: linear-gradient(to right bottom, $secondary, $primary);
+    @include gradient();
   }
+
  

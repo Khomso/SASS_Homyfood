@@ -91,16 +91,26 @@
   }
 }
 // icone coeur survol*/
-.transparent{
-  display: none;
+
+.heart_animation--color{
   position: absolute;
-  left: 0;
-  opacity: 0;
+  left:0;
+  color:transparent;
+  cursor: pointer;
+  animation: heart 3s linear forwards;
 }
-.fa-solid:hover{
-  opacity: 1;
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(to top, $secondary, $primary)
+.heart_animation--color:hover{
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   @include gradient;
+   }
+@keyframes heart{
+  from{
+    transform:scale(1) ;
   }
+  to{
+    transform: scale(1.2);
+  }
+}
+  

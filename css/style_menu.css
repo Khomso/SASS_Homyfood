@@ -322,20 +322,43 @@ footer {
   }
 }
 
-.transparent {
-  display: none;
+.heart_animation--color {
   position: absolute;
   left: 0;
-  opacity: 0;
+  color: transparent;
+  cursor: pointer;
+  -webkit-animation: heart 3s linear forwards;
+          animation: heart 3s linear forwards;
 }
 
-.fa-solid:hover {
-  opacity: 1;
+.heart_animation--color:hover {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#ff79da), to(#9556dc));
-  background-image: linear-gradient(to top, #ff79da, #9556dc);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), to(#9556dc));
+  background-image: linear-gradient(to right bottom, #ff79da, #9556dc);
+}
+
+@-webkit-keyframes heart {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes heart {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 
 /*page restaurant */
