@@ -166,24 +166,25 @@ footer {
 }
 
 .main_card--maincourse {
-  -webkit-animation: apparition 3s ease-out;
-          animation: apparition 3s ease-out;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation: apparition 6s ease-out;
+          animation: apparition 6s ease-out;
 }
 
 .main_card--dessert {
-  -webkit-animation: apparition 3s ease-out;
-          animation: apparition 3s ease-out;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation: apparition 9s ease-out;
+          animation: apparition 9s ease-out;
 }
 
 @-webkit-keyframes apparition {
-  from {
+  0% {
     opacity: 0;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
   to {
     opacity: 1;
@@ -193,10 +194,15 @@ footer {
 }
 
 @keyframes apparition {
-  from {
+  0% {
     opacity: 0;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
   }
   to {
     opacity: 1;
@@ -207,12 +213,12 @@ footer {
 
 /*loading_spinner*/
 .loading_spinner {
-  background-color: #ff93e1;
+  background-color: #ff79da;
   width: 320px;
   height: 100vh;
   font-family: sans-serif;
   font-size: 40px;
-  color: #9356dc;
+  color: #9556dc;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;

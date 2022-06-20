@@ -6,31 +6,34 @@
     animation: apparition 3s ease-out; 
   }
 .main_card--maincourse{
-    animation: apparition 3s ease-out;
-    animation-delay: 3s;
+    animation: apparition 6s ease-out;
   }
 .main_card--dessert{
-    animation: apparition 3s ease-out;
-    animation-delay: 6s;
+    animation: apparition 9s ease-out;
 }
   @keyframes apparition {
-    from{
+    0%{
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-25px);
+    }
+    50%{
+      opacity: 0;
+      transform: translateY(-15px);
     }
     to{
         opacity: 1;
         transform: translateY(0px);
     }
   }
+
 /*loading_spinner*/
   .loading_spinner {
-    background-color: #ff93e1;
+    background-color: $secondary;
     width: 320px;
     height: 100vh;
     font-family: sans-serif;
     font-size: 40px;
-    color: #9356dc;
+    color: $primary;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -77,7 +80,7 @@
   bottom: -6px;
   border-radius: 50px;
   border: 6px solid transparent;
-  border-top-color: #99e2d0;
+  border-top-color: $tertiary;
   animation: spin 2s linear infinite;
   
 }
