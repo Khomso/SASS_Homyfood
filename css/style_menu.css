@@ -367,6 +367,7 @@ footer {
   }
 }
 
+/*animation click menu*/
 /*page restaurant */
 .back_gray--resto {
   background-color: #f3f3f3;
@@ -395,11 +396,11 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
   width: 92%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   background-color: white;
   border-radius: 15px;
   margin: auto;
@@ -427,6 +428,12 @@ footer {
 }
 
 .main_card--margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin: 5px 10px;
 }
 
@@ -436,6 +443,34 @@ footer {
 
 .margin_right {
   margin-right: 20px;
+}
+
+.flex_block--hide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -51px;
+}
+
+.block_hide {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #99e2d0;
+  border-radius: 0 15px 15px 0;
+}
+
+.fa-circle-check {
+  border-radius: 30px;
+  color: #99e2d0;
+  background-color: white;
 }
 
 .border_green {

@@ -23,8 +23,9 @@
 
 .main_card {
   display: flex;
+  justify-content:space-between;
+  overflow: hidden;
   width: 92%;
-  flex-direction: column;
   background-color: white;
   border-radius: 15px;
   margin: auto;
@@ -42,6 +43,8 @@
   font-weight: bold;
 }
 .main_card--margin {
+  display: flex;
+  align-items: flex-end;
   margin: 5px 10px;
 }
 .text_size {
@@ -49,6 +52,23 @@
 }
 .margin_right {
   margin-right: 20px;
+}
+.flex_block--hide{
+  display: flex;
+  margin-right: -51px;
+}
+.block_hide{
+  width: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $tertiary;
+  border-radius: 0 15px 15px 0;
+}
+.fa-circle-check{
+  border-radius: 30px;
+  color:$tertiary;
+  background-color: white;
 }
 
 .border_green {
