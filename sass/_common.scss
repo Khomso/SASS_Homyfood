@@ -71,7 +71,6 @@ footer {
 }
 .back_black {
   background-color: black;
-  margin: 0;
 }
 .foot_title {
   padding-top: 15px;
@@ -84,11 +83,13 @@ footer {
   align-items: baseline;
 }
 .foot_margin {
-  margin-left: 10px;
+  margin: 5px 10px;
 }
 .hands_size {
   display: flex;
   font-size: 12px;
 }
-
+.white{
+  color: $white;
+}
 

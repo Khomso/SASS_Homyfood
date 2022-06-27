@@ -1,7 +1,7 @@
 @import "./variables";
 @import "./common";
-@import"./animation";
-body{
+@import "./animation";
+body {
   position: relative;
 }
 /*localisation paris*/
@@ -12,11 +12,13 @@ body{
   justify-content: center;
   text-align: center;
   align-items: center;
+  border-top: 5px solid rgb(225, 224, 224) ;
 }
 .border_city {
   border: none;
   background-color: lighten($color: $gray, $amount: 40%);
   padding-left: 15px;
+  margin: 5px;
 }
 /*carte grise*/
 
@@ -61,14 +63,17 @@ body{
 }
 .filter_margin {
   display: flex;
+  padding-left: 20px;
   margin: auto;
-  align-items: baseline;
+  min-width: 250px;
+  align-items: baseline; 
 }
 .primary {
   color: $primary;
 }
 /*restaurant*/
 .resto_background {
+  margin-bottom: -21px;
   padding-bottom: 35px;
   background-color: lighten($color: $gray, $amount: 45%);
   width: 100%;
@@ -79,11 +84,14 @@ body{
 .card {
   display: flex;
   width: 92%;
+  height: 100%;
   flex-direction: column;
   background-color: white;
   border-radius: 25px;
   margin: auto;
   margin-bottom: 15px;
+}
+.head_card {
   position: relative;
 }
 h3 {
@@ -95,6 +103,7 @@ h3 {
   justify-content: space-between;
 }
 .img_size {
+  width: 100%;
   height: 160px;
 }
 .img_border {
@@ -128,6 +137,3 @@ h3 {
 .flex_5 {
   flex: 5;
 }
-
-
-

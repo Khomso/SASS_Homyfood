@@ -3,6 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  margin-top: 40px;
   padding: 13px;
   border-radius: 25px;
   border: none;
@@ -124,7 +125,6 @@ footer {
 
 .back_black {
   background-color: black;
-  margin: 0;
 }
 
 .foot_title {
@@ -144,7 +144,7 @@ footer {
 }
 
 .foot_margin {
-  margin-left: 10px;
+  margin: 5px 10px;
 }
 
 .hands_size {
@@ -152,6 +152,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
+}
+
+.white {
+  color: white;
 }
 
 .btn:hover {
@@ -367,7 +371,57 @@ footer {
   }
 }
 
-/*animation click menu*/
+/*animation block hide turn*/
+.anim_card:hover .flex_block--hide {
+  -webkit-animation: display_check 1s ease-in-out both;
+          animation: display_check 1s ease-in-out both;
+}
+
+.anim_card:hover i.fa-circle-check {
+  -webkit-animation: turn 1.5s both;
+          animation: turn 1.5s both;
+}
+
+@-webkit-keyframes display_check {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 51px;
+  }
+}
+
+@keyframes display_check {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 51px;
+  }
+}
+
+@-webkit-keyframes turn {
+  from {
+    -webkit-transform: rotate(0turn);
+            transform: rotate(0turn);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes turn {
+  from {
+    -webkit-transform: rotate(0turn);
+            transform: rotate(0turn);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 body {
   position: relative;
 }
@@ -386,12 +440,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-top: 5px solid #e1e0e0;
 }
 
 .border_city {
   border: none;
   background-color: #e6e6e6;
   padding-left: 15px;
+  margin: 5px;
 }
 
 /*carte grise*/
@@ -454,7 +510,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 20px;
   margin: auto;
+  min-width: 250px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -466,6 +524,7 @@ body {
 
 /*restaurant*/
 .resto_background {
+  margin-bottom: -21px;
   padding-bottom: 35px;
   background-color: #f3f3f3;
   width: 100%;
@@ -480,6 +539,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 92%;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -488,6 +548,9 @@ body {
   border-radius: 25px;
   margin: auto;
   margin-bottom: 15px;
+}
+
+.head_card {
   position: relative;
 }
 
@@ -506,6 +569,7 @@ h3 {
 }
 
 .img_size {
+  width: 100%;
   height: 160px;
 }
 
