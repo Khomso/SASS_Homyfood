@@ -423,6 +423,10 @@ footer {
   }
 }
 
+.filter:hover .icon_padding {
+  color: #9556dc;
+}
+
 body {
   position: relative;
 }
@@ -474,7 +478,7 @@ body {
   margin: 25px;
 }
 
-.filter_color--primary {
+.filter_color--primary:hover {
   background-color: #f2eafb;
 }
 
@@ -503,10 +507,6 @@ body {
   padding-right: 15px;
 }
 
-.icon_padding .--color {
-  color: #9556dc;
-}
-
 .filter_margin {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,10 +517,6 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-}
-
-.primary {
-  color: #9556dc;
 }
 
 /*restaurant*/

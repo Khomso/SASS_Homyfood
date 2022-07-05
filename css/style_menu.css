@@ -423,6 +423,10 @@ footer {
   }
 }
 
+.filter:hover .icon_padding {
+  color: #9556dc;
+}
+
 /*page restaurant */
 .back_gray--resto {
   background-color: #f3f3f3;

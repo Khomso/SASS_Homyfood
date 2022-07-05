@@ -141,3 +141,8 @@
     transform: rotate(1turn);
   }
 }
+.filter:hover{
+  .icon_padding{
+    color: $primary;
+  }
+}

@@ -37,9 +37,11 @@ body {
   background-color: lighten($color: $gray, $amount: 45%);
   position: relative;
   margin: 25px;
-  &_color--primary {
+  &_color--primary:hover {
     background-color: lighten($color: $primary, $amount: 35%);
   }
+  
+
 }
 .circle {
   display: flex;
@@ -53,14 +55,14 @@ body {
   position: absolute;
   left: -10px;
 }
+
 .icon_padding {
   color: gray;
   padding-left: 15px;
-  padding-right: 15px;
-  .--color {
-    color: $primary;
-  }
+  padding-right: 15px; 
 }
+
+
 .filter_margin {
   display: flex;
   padding-left: 20px;
@@ -68,9 +70,7 @@ body {
   min-width: 250px;
   align-items: baseline; 
 }
-.primary {
-  color: $primary;
-}
+
 /*restaurant*/
 .resto_background {
   margin-bottom: -21px;
